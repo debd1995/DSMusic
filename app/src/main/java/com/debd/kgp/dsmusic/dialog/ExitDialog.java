@@ -23,7 +23,6 @@ public class ExitDialog extends DialogFragment {
 
 
 
-
     @SuppressLint("ValidFragment")
     public ExitDialog(ExitDialogListener context) {
         this.context = context;
