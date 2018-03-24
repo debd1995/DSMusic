@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#ff450c</color>-->
+    <color name="colorPrimary">#EF6C00</color>
+    <color name="colorPrimaryDark">#ff3d00</color>
+    <color name="colorAccent">@color/colorPrimaryDark</color>
+
+    <color name="dark_violet">#240115</color>
+
+    <color name="background_color">#212121</color>
+
+    <!--<color name="title_bar">#c8ff450c</color>-->
+
+    <color name="icon_color">@color/colorPrimaryDark</color>
+    <color name="icon_background_color">#FF5722</color>
+
+    <color name="text_color">#EAEAEA</color>
+    <color name="light_gray">#424242</color>
+    <color name="splash_text_color">@color/light_gray</color>
+
+    <color name="dialog_background_color">@color/dark_violet</color>
+
+    <!--<color name="dialog_icon_mat_red">#d32f2f</color>-->
+    <color name="button_background">#FF5722</color>
+
+    <color name="edit_text_hint_color">#616161</color>
+</resources>

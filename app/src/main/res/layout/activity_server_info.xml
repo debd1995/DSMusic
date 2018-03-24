@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.debd.kgp.dsmusic.ServerInfoActivity"
+    android:background="@color/background_color">
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Server Config"
+            android:layout_centerInParent="true"
+            android:textColor="@color/text_color"
+            android:textSize="30sp"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+    <View
+        android:id="@+id/horizontal_bar"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/title_bar"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/button_background"/>
+
+    <LinearLayout
+        android:id="@+id/info_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:padding="30dp">
+        <EditText
+            android:id="@+id/edt_base_url"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:singleLine="true"
+            android:hint="Base URL"
+            android:inputType="textUri"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textCursorDrawable="@drawable/cursor"
+            android:textColorHint="@color/edit_text_hint_color"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/text_color"
+            android:padding="10dp"
+            android:background="@drawable/dialog_background"/>
+        <EditText
+            android:id="@+id/edt_port"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:hint="Port"
+            android:singleLine="true"
+            android:maxLength="5"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:inputType="number"
+            android:textCursorDrawable="@drawable/cursor"
+            android:textColorHint="@color/edit_text_hint_color"
+            android:textColor="@color/text_color"
+            android:padding="10dp"
+            android:background="@drawable/dialog_background"/>
+        <Button
+            android:id="@+id/btn_go"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:layout_gravity="center"
+            android:text="Go"
+            android:textSize="20sp"
+            android:textColor="@color/text_color"
+            android:layout_marginTop="40dp"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

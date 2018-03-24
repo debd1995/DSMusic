@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_bar_text">20sp</dimen>
+    <dimen name="dialog_corner_width">5dp</dimen>
+    <dimen name="splash_text">60sp</dimen>
+    <dimen name="signup_edt_height">60dp</dimen>
+    <dimen name="dialog_title">20sp</dimen>
+    <dimen name="dialog_button_text">15sp</dimen>
+    <dimen name="dialog_description">16sp</dimen>
+</resources>
