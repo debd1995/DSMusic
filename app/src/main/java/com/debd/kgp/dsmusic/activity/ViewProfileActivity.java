@@ -1,22 +1,20 @@
-package com.debd.kgp.dsmusic;
+package com.debd.kgp.dsmusic.activity;
 
-import android.content.Intent;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Base64;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.debd.kgp.dsmusic.R;
 import com.debd.kgp.dsmusic.dialog.ExitDialog;
 import com.debd.kgp.dsmusic.dialog.ExitDialogListener;
 import com.debd.kgp.dsmusic.dialog.MessageDialog;

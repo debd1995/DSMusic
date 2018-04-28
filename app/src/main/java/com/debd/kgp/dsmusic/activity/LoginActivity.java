@@ -1,4 +1,4 @@
-package com.debd.kgp.dsmusic;
+package com.debd.kgp.dsmusic.activity;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -19,8 +19,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupMenu;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.debd.kgp.dsmusic.R;
 import com.debd.kgp.dsmusic.dialog.ExitDialog;
 import com.debd.kgp.dsmusic.dialog.ExitDialogListener;
 import com.debd.kgp.dsmusic.dialog.MessageDialog;
@@ -30,7 +30,6 @@ import com.debd.kgp.dsmusic.restClient.ClientAPI;
 import com.debd.kgp.dsmusic.model.restAPIModel.Error;
 import com.debd.kgp.dsmusic.utils.sharedPreferences.ServerConfigurationPreference;
 import com.debd.kgp.dsmusic.utils.sharedPreferences.UserCredentialPreference;
-import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import java.io.IOException;
@@ -38,7 +37,6 @@ import java.lang.annotation.Annotation;
 
 import okhttp3.ResponseBody;
 import retrofit2.Call;
-import retrofit2.Callback;
 import retrofit2.Converter;
 import retrofit2.Response;
 import retrofit2.Retrofit;

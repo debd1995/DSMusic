@@ -1,4 +1,4 @@
-package com.debd.kgp.dsmusic;
+package com.debd.kgp.dsmusic.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,14 +7,13 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 
+import com.debd.kgp.dsmusic.BuildConfig;
+import com.debd.kgp.dsmusic.R;
 import com.debd.kgp.dsmusic.dialog.ExitDialog;
 import com.debd.kgp.dsmusic.dialog.ExitDialogListener;
 import com.debd.kgp.dsmusic.dialog.MessageDialog;
 import com.debd.kgp.dsmusic.model.ServerConfiguration;
-import com.debd.kgp.dsmusic.utils.Constants;
 import com.debd.kgp.dsmusic.utils.sharedPreferences.ServerConfigurationPreference;
 
 import java.util.regex.Matcher;

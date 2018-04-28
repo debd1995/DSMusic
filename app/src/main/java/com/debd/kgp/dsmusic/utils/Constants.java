@@ -2,14 +2,13 @@ package com.debd.kgp.dsmusic.utils;
 
 
 import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 
-import com.debd.kgp.dsmusic.LoginActivity;
-import com.debd.kgp.dsmusic.MusicPlayerActivity;
+import com.debd.kgp.dsmusic.activity.LoginActivity;
+import com.debd.kgp.dsmusic.activity.MusicPlayerActivity;
 import com.debd.kgp.dsmusic.R;
-import com.debd.kgp.dsmusic.ServerInfoActivity;
-import com.debd.kgp.dsmusic.ViewProfileActivity;
+import com.debd.kgp.dsmusic.activity.ServerInfoActivity;
+import com.debd.kgp.dsmusic.activity.ViewProfileActivity;
 import com.debd.kgp.dsmusic.model.SideNavItem;
 import com.debd.kgp.dsmusic.utils.sharedPreferences.UserCredentialPreference;
 

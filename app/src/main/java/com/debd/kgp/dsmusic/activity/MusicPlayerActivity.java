@@ -1,4 +1,4 @@
-package com.debd.kgp.dsmusic;
+package com.debd.kgp.dsmusic.activity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -18,6 +18,7 @@ import android.widget.PopupMenu;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import com.debd.kgp.dsmusic.R;
 import com.debd.kgp.dsmusic.dialog.ExitDialog;
 import com.debd.kgp.dsmusic.dialog.ExitDialogListener;
 import com.debd.kgp.dsmusic.model.SideNavItem;
